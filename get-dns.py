@@ -66,15 +66,6 @@ if __name__ == "__main__":
     ip = retrieve_information(cn,"ipHostNumber")                                                                                                                                                                                          
     mac = retrieve_information(cn,"macAddress")  
 
-print "host " karamatic "{"
-print "hardware ethernet " 00:E0:81:74:55:E0;
-  fixed-address 157.182.209.149;
-}
-
     print ip
     print mac 
 
-
-
-  #hardware ethernet 00:0F:EA:3D:6C:D9;
-  #fixed-address 157.182.209.135;
